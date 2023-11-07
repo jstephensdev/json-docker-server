@@ -1,3 +1,5 @@
+generates mock routes for mocking rest apis
+
 Using:
 Docker
 https://www.npmjs.com/package/json-server
