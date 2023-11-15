@@ -6,25 +6,20 @@ https://www.npmjs.com/package/json-server
 
 
 Running Locally: 
+Replace the db.json file with any mock api db.json file.
+In seperate terminal windows, use the start.sh and stop.sh scripts
 
-docker build .    
----> build the image 
+when started successfully, once the image builds, expect to see this output:
+ \{^_^}/ hi!
 
-docker build . --no-cache 
----> build and disregard old files that may have changed 
+  Loading db.json
+  Done
 
-docker build . --no-cache -t json-docker-server 
----> add tag, no longer need to find image id, can use tag
+  Resources
+  routes list created from db.json
 
-docker image list    
-----> display build images 
+  Home
+  http://0.0.0.0:3000
 
-docker run --rm IMAGE_ID   
-
-docker run --rm -p 3000:3000 IMAGE_ID
-
-docker ps
-
-docker stop CONTAINER_ID
 
 
