@@ -1,8 +1,8 @@
-Generates mock routes and data defined in db.json for mocking rest apis. There is no need to install json-server as a local project dependency.
+This project makes it so json-server does not need to be set up in an Application.
 
 Using:
 -Docker
--https://www.npmjs.com/package/json-server
+-https://github.com/typicode/json-server
 
 Running Locally: 
 Replace the db.json file with any mock api db.json file.
