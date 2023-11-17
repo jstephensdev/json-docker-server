@@ -1,8 +1,8 @@
-Generates mock routes and data defined in db.json for mocking rest apis.
+Generates mock routes and data defined in db.json for mocking rest apis. There is no need to install json-server as a local project dependency.
 
 Using:
-Docker
-https://www.npmjs.com/package/json-server
+-Docker
+-https://www.npmjs.com/package/json-server
 
 Running Locally: 
 Replace the db.json file with any mock api db.json file.
@@ -18,7 +18,7 @@ When started successfully, once the image builds, expect to see this output:
   routes list created from db.json
 
   Home
-  http://0.0.0.0:3000
+  http://0.0.0.0:5000
 
 When stoped successfully, you will see the container id and "Stopped".
 
