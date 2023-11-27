@@ -1,21 +1,37 @@
 {
-  "posts": [
+  "events": [
     {
-      "title": "Post 1",
-      "author": "author 1"
+      "id": 12344,
+      "category": "animal welfare",
+      "title": "Cat Adoption Day",
+      "description": "Find a Cat",
+      "location": "Meow town",
+      "date": "January 28, 2022",
+      "time": "12:00",
+      "petsAllowed": true,
+      "organizer": "Kat Laydee"
     },
     {
-      "title": "Post 2",
-      "author": "author 2"
+      "id": 12345,
+      "category": "animal welfare",
+      "title": "Cat Adoption Day",
+      "description": "Find a Cat",
+      "location": "Meow town",
+      "date": "January 28, 2022",
+      "time": "12:00",
+      "petsAllowed": true,
+      "organizer": "Kat Laydee"
     },
     {
-      "title": "Post 3",
-      "author": "author 3"
+      "id": 12346,
+      "category": "animal welfare",
+      "title": "Cat Adoption Day",
+      "description": "Find a Cat",
+      "location": "Meow town",
+      "date": "January 28, 2022",
+      "time": "12:00",
+      "petsAllowed": true,
+      "organizer": "Kat Laydee"
     }
-  ],
-  "profile": {
-    "first_name": "Name 1",
-    "last_name": "Last Name 1",
-    "email": "Name@1"
-  }
+  ]
 }
