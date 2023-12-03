@@ -1,8 +1,8 @@
-This project makes it so json-server does not need to be set up in an Application.
+This project makes it so json-server does not need to be set up in an application to use it for testing.
 
 ## Technology Used:
 -Docker
--https://github.com/typicode/json-server
+-Json server ( https://github.com/typicode/json-server )
 
 ## Running Locally:
 1. Make sure to have docker installed and running. 
